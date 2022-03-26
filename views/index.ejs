@@ -2,14 +2,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
+    
+
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
+    <div id="header"></div>
+    <img id="headimg" src ="https://i.imgur.com/YBNxhTy.png">
+    <h1>Mongoose Flights</h1>
+    
     <ul>
-      <a href="/flights">All Flights</a>
-      <a href="flights/new">New Flights</a>
+      <a id="linkflight" href="/flights">All Flights</a>
+      <a id="linkhome" href="flights/new">New Flights</a>
     </ul>
+    </div>
+    <img id="homepage" src="https://i.imgur.com/MA37B87.png">
   </body>
 </html>

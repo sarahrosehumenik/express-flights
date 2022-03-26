@@ -1,0 +1,107 @@
+body {
+
+    background-color: #ffc1aa;
+ 
+
+
+    
+
+
+}
+
+
+#headimg {
+    height: 22vh;
+    position: absolute;
+    left: 3%;
+    margin: 10vh 0 0 6vh;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.507);
+  }
+  
+  h1{
+    position: absolute;
+    top: 10%;
+    padding: 20px 0 0 8vh;
+    left: 10vh;
+   
+    height: 15vh;
+    width: 36vh;
+    
+    font-size: 4.5vh;
+    color: rgb(0, 0, 0);
+  }
+
+form {
+    position: absolute;
+    
+    bottom: 50%;
+    margin: 20vh 0 0 11vh;
+  
+    height: 15h;
+   
+}
+#save {
+    position: absolute;
+    text-align: center;
+    bottom: 40%;
+    margin: 15vh 0 0 25vh;
+    padding: 1vh 1vh 1vh 1vh;
+    border: 2px solid pink;
+    background-color: pink;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.541);
+
+}
+#home {
+    position: absolute;
+    top: 20%;
+    margin: 20px 0 0 6vh;
+    left: 10vh;
+    font-size: 1vh;
+
+    font-size: 3vh;
+    
+   padding:  1vh 1vh 1vh 1vh;
+    
+    background-color: rgba(112, 96, 255, 0.699);
+    color: black;
+  }
+
+  #airport {
+
+    position: absolute;
+  
+    
+    height: 80vh;
+    left: 30%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    z-index: -1;
+    top: 20%;
+  }
+input {
+    border:3px solid rgb(53, 201, 152);
+    height: 3vh;
+    
+}
+select {
+    border:3px solid rgb(53, 201, 152);
+    height: 3vh;
+    margin: 0 0 0 .4vh;
+
+}
+
+#linkflight {
+    position: absolute;
+    top: 20%;
+    margin: 20px 0 0 17vh;
+    left: 10vh;
+    font-size: 1vh;
+
+    font-size: 3vh;
+    
+   padding:  1vh 1vh 1vh 1vh;
+    
+    background-color: rgba(112, 96, 255, 0.699);
+    color: black;
+
+}
